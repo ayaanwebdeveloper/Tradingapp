@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1 id="start">Start Your Trade</h1></center>
+    <center><br><br><br><p id="Price"><b>Trade Price</b></p>
+        <input type="text" id="numberInput" pattern="\d{0,2}" inputmode="numeric" oninput="restrictInput(this)">
+
+        <script>
+        function restrictInput(element) {
+            if (element.value.length > 2) {
+                element.value = element.value.slice(0, 2);
+            }
+        }
+        </script><br><br>
+        
+        <a href="tradcom.html"><button>Buy</button></a>&nbsp;&nbsp;&nbsp;
+    <a href="tradcom.html"><button>Sell</button></a>
+</center>
+</body>
+</html>

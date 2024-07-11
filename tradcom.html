@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 50px;">
+       
+        <p id="random-number" style="font-size: 24px; margin-top: 20px;"></p>
+    </div>
+
+    <script>
+        window.onload = function() {
+            const randomNumber = Math.floor(Math.random() * 100) + 1;
+            document.getElementById('random-number').innerText = `You won: ${randomNumber}`;
+        };
+    </script>
+</body>
+</html>

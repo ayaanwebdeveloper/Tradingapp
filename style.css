@@ -1,0 +1,27 @@
+#id {
+    width: 200px;
+    height: 250px;
+    border: 5px solid red;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+body {
+    background-image: url(img/candel.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#start {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    border: 5px dashed red;
+}
+#Price {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    border: 5px dashed green;
+    font-size: 30px;
+}
